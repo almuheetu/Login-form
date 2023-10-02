@@ -68,3 +68,12 @@ label span {
 .side h2 {
     text-align: left;
 }
+
+
+
+.display {
+	display: flex;
+}
+.display span {
+	margin-left: 50%;
+}
