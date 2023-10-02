@@ -5,7 +5,7 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 80px;
     background-color: #fff;
     border-radius: 5px;
@@ -58,7 +58,10 @@ input[type="submit"]:hover {
 }
 
 
-
+label span {
+	/* text-align: match-parent; */
+	margin-left: 50%;
+}
 
 
 
