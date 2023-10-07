@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
@@ -65,15 +65,42 @@ label span {
 
 
 
-.side h2 {
-    text-align: left;
+?
+
+
+
+
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
 }
 
-
-
-.display {
-	display: flex;
+/* Style the navigation menu */
+nav {
+    background-color: #333;
 }
-.display span {
-	margin-left: 50%;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #444;
 }
