@@ -62,7 +62,10 @@ label span {
 	text-align: match-parent;
 	margin-left: 50%;
 }
-
+.display {
+	display: flex;
+	/* margin-right: 20px; */
+}
 
 
          
